@@ -1,7 +1,7 @@
 const { prompt } = require("./db/prompts");
 const logo = require("asciiart-logo");
 const db = require("./db");
-const { title } = require("process");
+
 require("console.table");
 
 init();
@@ -337,7 +337,7 @@ loadMainPrompts();
 
         });
 
-        await db.removeDepartment {departmentId};
+        await db.removeDepartment (departmentId);
 
         console.log ('Removed department from database');
         loadMainPrompts();
@@ -415,12 +415,3 @@ const roleId =  await prompt ({
             console.log ("GoodBye");
             process.exit();
         }
-
-
-    
-
-
-
-
-
-
