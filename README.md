@@ -1,51 +1,27 @@
-Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as Content Management Systems. In this homework assignment, your challenge is to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.
+# employee-tracker
 
-Unit 12 MySQL Homework: Employee Tracker
+A solution for managing a company's employees using node, inquirer, and MySQL.
 
-Employee Tracker
+## User Story
 
-This app is an interface that make it easy for non-developers to view and interact with information stored in databases. also known as Content Management Systems. This is solution for managing a company's employees using node, inquirer, and MySQL.
+```
+AS A business owner
+I WANT to be able to view and manage the departments, roles, and employees in my company
+SO THAT I can organize and plan my business
+```
 
-The following database schema containing three tables:
+## Features
 
-Database Schema
+* VIEW ALL departments, roles, and employees
+* ADD departments, roles, and employees
+* UPDATE employee roles
 
-department:
+## Screenshots
 
-id - INT PRIMARY KEY
-name - VARCHAR(30) to hold department name
-role:
+![Screen Shot 2020-09-07 at 3 39 38 PM](https://user-images.githubusercontent.com/65512016/92419135-6bea8300-f120-11ea-867f-9d8b10a10c6e.png)
 
-id - INT PRIMARY KEY
-title - VARCHAR(30) to hold role title
-salary - DECIMAL to hold role salary
-department_id - INT to hold reference to department role belongs to
-employee:
+![Screen Shot 2020-09-07 at 3 40 01 PM](https://user-images.githubusercontent.com/65512016/92419141-6db44680-f120-11ea-9742-bbd25656cdcf.png)
 
-id - INT PRIMARY KEY
-first_name - VARCHAR(30) to hold employee first name
-last_name - VARCHAR(30) to hold employee last name
-role_id - INT to hold reference to role employee has
-manager_id - INT to hold reference to another employee that manager of the current employee. This field may be null if the employee has no manager
-Build a command-line application that at a minimum allows the user to:
+## URL
 
-Add departments, roles, employees
-
-View departments, roles, employees
-
-Update employee roles
-
-Bonus points if you're able to:
-
-Update employee managers
-
-View employees by manager
-
-Delete departments, roles, and employees
-
-View the total utilized budget of a department -- ie the combined salaries of all employees in that department
-
-USERS:
-
-As a business owner I want to be able to view and manage the departments, roles, and employees in my company
-So that I can organize and plan my business
+https://github.com/fengjess/employee-tracker
