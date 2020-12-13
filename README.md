@@ -4,19 +4,9 @@ Developers are often tasked with creating interfaces that make it easy for non-d
 
 ## Features
 
-<<<<<<< HEAD
-
 - VIEW ALL departments, roles, and employees
 - ADD departments, roles, and employees
 - UPDATE employee roles
-
-## Screenshots
-
-![Screen Shot 2020-09-07 at 3 39 38 PM](https://user-images.githubusercontent.com/65512016/92419135-6bea8300-f120-11ea-867f-9d8b10a10c6e.png)
-
-## URL
-
-# https://github.com/fengjess/employee-tracker
 
 ![Database Schema]
 
@@ -55,5 +45,3 @@ As a business owner I want to be able to view and manage the departments, roles,
 ```
 
 ![Hnet-image (5)](https://user-images.githubusercontent.com/65620789/101999342-d1ef2500-3c90-11eb-9c61-dcb3801c6ad8.gif)
-
-> > > > > > > 68e4929d4d14221a4556307ae1484e79717ca2e1
