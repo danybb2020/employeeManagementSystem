@@ -12,8 +12,6 @@ Developers are often tasked with creating interfaces that make it easy for non-d
 
 ## Screenshots
 
-![Screen Shot 2020-09-07 at 3 39 38 PM](https://user-images.githubusercontent.com/65512016/92419135-6bea8300-f120-11ea-867f-9d8b10a10c6e.png)
-
 
 
 ![Database Schema]
